@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 50px;
+            color: red;
+        }
+
+        body {
+            background-color: blue;
+        }
+
+        p {
+            font-size: 20px;
+            color: green;
+        }
+
+        /* Phone */
+        @media only screen and (max-width: 576px) {
+            h1 {
+                font-size: 20px;
+                color: blue;
+            }
+
+            body {
+                background-color: pink;
+            }
+
+            p {
+                font-size: 15px;
+                color: cyan;
+            }
+        }
+
+        /* Ipad */
+        /*  576px < width < 991px */
+        @media only screen and (min-width: 577px) and (max-width: 991px) {
+            h1 {
+                font-size: 30px;
+                color: black;
+            }
+
+            body {
+                background-color: orangered;
+            }
+
+            p {
+                font-size: 25px;
+                color: black;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Lorem, ipsum dolor.</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius architecto rem repellendus sed blanditiis
+        consectetur quasi praesentium suscipit inventore iure quisquam ea reprehenderit, et animi, illo, perspiciatis
+        quam cumque similique.</p>
+</body>
+
+</html>
